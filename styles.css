@@ -1,0 +1,35 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover; /* La imagen cubrirá toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center center; /* Centra la imagen en la pantalla */
+    height: 100vh; /* La página tendrá al menos la altura completa del viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #ffffff; /* Color del texto en blanco para mayor contraste */
+}
+
+.form-control {
+    border-radius: 0.25rem;
+}
+
+button {
+    width: 100%;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente para que el formulario sea visible */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+label, input {
+    color: #ffffff;
+}
